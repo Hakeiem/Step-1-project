@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    height: 100%;
+    background-color: black;
+}
+
+.main{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    height: 100vh;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    color: black;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    height: 50px;
+    width: 100px;
+    font-size: 23px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 30px;
+}
+
+nav button:hover {
+    height: 50px;
+    width: 100px;
+    font-size: 23px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 247, 0);
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 30px;
+}
+
+.container {
+    background-color: rgb(26, 26, 26);
+    height: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-text {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    transition: ease-in-out 50ms;
+}
+
+.minor-text {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 50ms;
+}
+.main-text:hover {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 20px yellow;
+    font-size: 70px;
+    transition: ease-in-out 50ms;
+
+}
+
+.minor-text:hover {
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 5px yellow;
+    transition: ease-in-out 50ms;
+}
+
+footer {
+    margin-top:  40px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.aboutUs {
+    width: 100%;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    margin-top: 100px;
+    color: rgb(241, 249, 175);
+}
+
+.progress_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.progress_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: yellow;
+}
